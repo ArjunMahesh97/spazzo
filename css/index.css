@@ -6,15 +6,19 @@
 * {
     margin:0;
     padding:0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 html,body{
     height:100%;
 }
 
+body{
+    background:url('../assets/background.png') no-repeat;
+}
+
 .navbar,.navbar-default{
-    padding:25px 60px;
+    padding:35px 60px;
     border-radius:0;
     border:0 !important;
     background-color: transparent !important;
@@ -33,7 +37,7 @@ html,body{
 }
 
 .login-btn{
-    color:#000629 !important;
+    color:#fff !important;
 }
 
 .signup-btn,.signup-btn:hover,.signup-btn:focus{
@@ -56,12 +60,94 @@ html,body{
     border-color: transparent !important;
 }
 
+.img-hero{
+    width: 100%;
+}
+
+.tagline{
+    margin:15vh auto 10px;
+    font-weight: bold;
+    font-family: Noe;
+    color:#000629cc;
+}
+
+.desc{
+    width: 80%;
+    font-family: Rubik;
+    color:#000629cc;
+    margin-bottom: 20px !important;
+}
+
+.start-btn,.start-btn:hover,.start-btn:focus
+{
+    text-decoration: none;
+    padding:5px 30px 3px 30px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: Noe;
+    background : -moz-linear-gradient(0% 50% 0deg,rgba(79, 34, 128, 1) 0%,rgba(212, 20, 90, 1) 100%);
+    background : -webkit-linear-gradient(0deg, rgba(79, 34, 128, 1) 0%, rgba(212, 20, 90, 1) 100%);
+    background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(79, 34, 128, 1) ),color-stop(1,rgba(212, 20, 90, 1) ));
+    background : -o-linear-gradient(0deg, rgba(79, 34, 128, 1) 0%, rgba(212, 20, 90, 1) 100%);
+    background : -ms-linear-gradient(0deg, rgba(79, 34, 128, 1) 0%, rgba(212, 20, 90, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#4F2280', endColorstr='#D4145A' ,GradientType=0)";
+    background : linear-gradient(90deg, rgba(79, 34, 128, 1) 0%, rgba(212, 20, 90, 1) 100%);
+    border-radius : 26px;
+    -moz-border-radius : 26px;
+    -webkit-border-radius : 26px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4F2280',endColorstr='#D4145A' , GradientType=1);
+}
+
 @media screen and (max-width:768px){
     .navbar,.navbar-default{
         padding:5px !important;
     }
+    .login-btn{
+        color:#000629cc !important; 
+    }
     .signup-btn{
         display: inline-block;
         width: 100%;
+    }
+    .tagline{
+        margin: 30px auto 10px;
+    }
+    .desc{
+        width: 100%;
+        font-size: 14px;
+    }
+    .start-btn{
+        padding: 5px 20px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .navbar-brand{
+        font-size: 48px !important;
+    }
+    .navbar-right>li>a{
+        font-size: 21px;
+    }
+    .signup-btn,.signup-btn:hover,.signup-btn:focus{
+        padding: 10px 15px !important;
+        border-radius: 6px;
+    }
+    .tagline{
+        margin: 20vh auto 10px; 
+        font-size: 6em;
+    }
+    .desc{
+        font-size: 18px;
+        width: 95%;
+    }
+    .start-btn,.start-btn:hover,.start-btn:focus{
+        padding: 10px 30px;
+        font-size: 21px;
+    }
+    .img-hero{
+        margin-top:5vh;
+        width: 120%;
     }
 }
