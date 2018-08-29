@@ -124,6 +124,10 @@ body{
 }
 
 @media screen and (min-width:1440px){
+    body{
+        background: url('../assets/backgroundmac.png');
+        background-position:60%; 
+    }
     .navbar-brand{
         font-size: 48px !important;
     }
@@ -135,7 +139,7 @@ body{
         border-radius: 6px;
     }
     .tagline{
-        margin: 20vh auto 10px; 
+        margin: 21vh auto 10px; 
         font-size: 6em;
     }
     .desc{
@@ -147,7 +151,79 @@ body{
         font-size: 21px;
     }
     .img-hero{
-        margin-top:5vh;
-        width: 120%;
+        margin-top:10vh;
     }
 }
+
+@media screen and (min-width:1920px){
+    body{
+        background: url('../assets/backgroundmac.png');
+        background-position:60%; 
+    }
+    .container{
+        width: 80% !important;
+    }
+    .navbar,.navbar-default{
+        padding:80px 0 !important;
+    }
+    .navbar-brand{
+        font-size: 54px !important;
+    }
+    .navbar-right>li>a{
+        font-size: 21px;
+    }
+    .start-btn,.start-btn:hover,.start-btn:focus{
+        padding: 15px 40px;
+        font-size: 24px;
+    }
+    .desc{
+        font-size: 21px;
+        margin-bottom: 35px !important;
+    }
+    .img-hero{
+        margin-top:5vh;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:2560px){
+    body{
+        background: url('../assets/backgroundmac.png');
+        background-position:60%; 
+    }
+    .container{
+        width: 80% !important;
+    }
+    .navbar,.navbar-default{
+        padding:80px 0 !important;
+    }
+    .navbar-brand{
+        font-size: 72px !important;
+    }
+    .navbar-right>li>a{
+        font-size: 32px;
+    }
+    .signup-btn,.signup-btn:hover,.signup-btn:focus{
+        margin-top:-10px;
+        padding: 25px  !important;
+    }
+    .tagline{
+        font-size: 8em;
+    }
+    .desc{
+        font-size: 28px !important;
+    }
+    .start-btn,.start-btn:hover,.start-btn:focus{
+        padding: 20px 50px;
+        font-size: 32px !important;
+        border-radius: 35px;
+    }
+    .desc{
+        font-size: 21px;
+        margin-bottom: 35px !important;
+    }
+    .img-hero{
+        margin-top:8vh;
+    }
+}
+
