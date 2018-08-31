@@ -11,6 +11,4 @@ A social platform for UI/UX designers to showcase their work. (coming soon.. :D 
 
 
 ### Contributors 
-[Adithya NR](https://adithyabhat.com)  
-[Arjun Mahesh](https://www.linkedin.com/in/arjun-devappa-a6085114a/)  
-[Anusha Acharya](https://www.linkedin.com/in/anusha-acharya-b783a2130/)
+<a href="https://adithyabhat.com"><img src="assets/contributors/adithya.png" alt="adithya" style="width:75px;border-radius:50%;"></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/arjun-devappa-a6085114a"><img src="assets/contributors/arjun.jpeg" alt="arjun" style="width:75px;border-radius:50%;"></a> &nbsp;&nbsp;  <a href="https://www.linkedin.com/in/anusha-acharya-b783a2130"><img src="assets/contributors/anusha.jpeg" alt="arjun" style="width:75px;border-radius:50%;"></a>
