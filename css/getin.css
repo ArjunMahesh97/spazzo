@@ -62,14 +62,17 @@ i{
     border-color: transparent !important;
 }
 
-h1,p,label,input{
+p,label,input{
     font-family: Rubik !important;
     color:#4a4a4a
 }
 
+
 h1{
-    margin-top:5vh !important   ;
+    font-family: Noe !important;
+    margin-top:1vh !important   ;
     font-weight: bold !important;
+    color:#4a4a4a
 }
 p{
     width: 80%;
@@ -137,7 +140,7 @@ input[type="submit"]{
         font-size: 18px;
     }
     h1{
-        margin-top:15vh !important;
+        margin-top:2vh !important;
     }
 
     .welcome{
@@ -151,13 +154,16 @@ input[type="submit"]{
         width: 90% !important;
     }
     .signup-img{
-        margin-top:20vh;
+        margin-top:25vh;
     }
 }
 
 @media screen and (min-width:1920px){
     .navbar-brand{
         font-size: 2.25em !important;
+    }
+    h1{
+        margin-top:5vh !important;
     }
     .navbar-right>li>a{
         font-size: 18px;
@@ -169,7 +175,7 @@ input[type="submit"]{
         width: 70% !important;
     }
     .signup-img{
-        margin-top:18vh;
+        margin-top:25vh;
     }
 }
 
