@@ -4,7 +4,7 @@ A social platform for UI/UX designers to showcase their work. (coming soon.. :D 
 
 `Prototype`   
 
-<img src="assets/demo1.png" alt="pc" width="50%"/> 
+<img src="assets/demo1.jpg" alt="pc" width="50%"/> 
 
 <img src="assets/ss.jpeg" alt="smartphone" width="50%"/> 
 
