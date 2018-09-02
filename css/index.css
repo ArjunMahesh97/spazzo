@@ -220,7 +220,7 @@ body{
     }
     .tagline{
         margin: 21vh auto 10px; 
-        font-size: 6em;
+        font-size: 4em;
     }
     .desc{
         font-size: 18px;
@@ -251,6 +251,10 @@ body{
     }
     .navbar-right>li>a{
         font-size: 21px;
+    }
+    .tagline{
+        font-size: 5em;
+        margin-top:15vh;
     }
     .start-btn,.start-btn:hover,.start-btn:focus{
         padding: 15px 40px;
