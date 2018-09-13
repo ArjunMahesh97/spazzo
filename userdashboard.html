@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{username}} - Spazzo</title>
+    <title>{{username}} - Spazzo</title> <!--TODO - title should be dynamic i.e : The username must be displayed-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- TODO : seo stuff goes here -->
+    <!-- TODO : seo stuff goes here - Leave this to me -->
 
     <!-- stylesheets and fonts -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/user.css" />
@@ -30,7 +30,11 @@
                 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="login-btn animated slideInRight" href="login.html"><img src="" alt=""> Username</a></li>
+                    <!-- TODO : Redirect to a new form to add new post - leave this to me -->
+                    <li><a class="login-btn animated slideInRight" href="new.html">Upload</a></li>
+                    <!-- TODO : make the username show up in the navbar on signup or login -->
+                    <li><a class="login-btn animated slideInRight" href="login.html">Username</a></li>
+                    <!-- TODO : Log user out of the session  -->
                     <li><a class="signup-btn animated slideInRight" href="signup.html">Logout</a></li>           
                 </ul>
             </div>
@@ -44,12 +48,12 @@
                 <div class="profile">
                     <h2>About</h2>
                     <img class="dp" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYLrDQ9eHVQH28Tn5cY_grVhGZ_9CP7tJdnqtAcgorxmz97gUK" alt="user">
-                    <h3 class="name">Mike Wazowski</h3>
-                    <p class="location">Florida,USA</p>
-                    <p class="profession">UI/UX Designer</p>
-                    <a href="#" class="website">https://mikewazowski.com</a>
-                    <h5 class="skill-title">SKILLS</h5>
-                    <ul class="skills">
+                    <h3 class="name">Mike Wazowski</h3> <!-- TODO : Username from db--> 
+                    <p class="location">Florida,USA</p> <!-- TODO : Location-->
+                    <p class="profession">UI/UX Designer</p> <!-- TODO : Profession-->
+                    <a href="#" class="website">https://mikewazowski.com</a> <!-- TODO : url from db-->
+                    <h5 class="skill-title">SKILLS</h5> 
+                    <ul class="skills"> <!-- TODO : display all skills, can use forEach loop maybe..-->
                         <li class="skill-items">Scaring kids</li>
                         <li class="skill-items">UI Design</li>
                         <li class="skill-items">UX Design</li>
@@ -59,34 +63,73 @@
             </div>
             <div class="col-md-8 col-sm-12">
                 <div class="row">
-                    <div class="col-md-3 col-xs-6">
+                    <!-- TODO : use the first card as reference , use for loops to display all cards in descending order of timestamp-->
+                    <div class="col-md-4 col-xs-12">
                         <div class="thumbnail" id="post1">
+                            <!-- image and the link to the fullimage goes here -->
                             <a href="#"><img src="assets/sweet-waves.jpg" alt="work" class="work"></a>
-                            <div class="details"><span class="icons"><i class="fas fa-heart"></i>1</span> &nbsp; <span class="icons"><i class="fas fa-eye"></i>1</span></div>                            
+                            <div class="details">
+                                <!-- TODO : Add logic to toggle number of views and likes (views can be incremented when a user visits the full image) -->
+                                <span class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    1
+                                </span> &nbsp; 
+                                <span class="icons">
+                                    <i class="fas fa-eye"></i>
+                                    1
+                                </span>
+                            </div>                            
                         </div>
                         <!-- <a class="author" href=""><img class="author-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYLrDQ9eHVQH28Tn5cY_grVhGZ_9CP7tJdnqtAcgorxmz97gUK" alt="user">
                             Mike Wazowski</a> -->
                     </div>
-                    <div class="col-md-3 col-xs-6">
+                    <div class="col-md-4 col-xs-12">
                         <div class="thumbnail">
                             <a href="#"><img src="assets/sweet-waves.jpg" alt="work" class="work"></a>
-                            <div class="details"><span class="icons"><i class="fas fa-heart"></i>1 </span> &nbsp; <span class="icons"><i class="fas fa-eye"></i>1</span></div> 
+                            <div class="details">
+                                <span class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    1 
+                                </span> &nbsp; 
+                                <span class="icons">
+                                    <i class="fas fa-eye"></i>
+                                    1
+                                </span>
+                            </div> 
                         </div>    
                         <!-- <a class="author" href=""><img class="author-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYLrDQ9eHVQH28Tn5cY_grVhGZ_9CP7tJdnqtAcgorxmz97gUK" alt="user">
                             Mike Wazowski</a> -->
                     </div>
-                    <div class="col-md-3 col-xs-6">
+                    <div class="col-md-4 col-xs-12">
                         <div class="thumbnail">
                             <a href="#"><img src="assets/sweet-waves.jpg" alt="work" class="work"></a>
-                            <div class="details"><span class="icons"><i class="fas fa-heart"></i>1</span> &nbsp; <span class="icons"><i class="fas fa-eye"></i>1</span></div>  
+                            <div class="details">
+                                <span class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    1
+                                </span> &nbsp; 
+                                <span class="icons">
+                                    <i class="fas fa-eye"></i>
+                                    1
+                                </span>
+                            </div>  
                         </div>        
                         <!-- <a class="author" href=""><img class="author-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYLrDQ9eHVQH28Tn5cY_grVhGZ_9CP7tJdnqtAcgorxmz97gUK" alt="user">
                             Mike Wazowski</a>                -->
                     </div>
-                    <div class="col-md-3 col-xs-6">
+                    <div class="col-md-4 col-xs-12">
                         <div class="thumbnail">
                             <a href="#"><img src="assets/sweet-waves.jpg" alt="work" class="work"></a>
-                            <div class="details"><span class="icons"><i class="fas fa-heart"></i>1</span> &nbsp; <span class="icons"><i class="fas fa-eye"></i>1</span></div> 
+                            <div class="details">
+                                <span class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    1
+                                </span> &nbsp; 
+                                <span class="icons">
+                                    <i class="fas fa-eye"></i>
+                                    1
+                                </span>
+                            </div> 
                         </div>    
                         <!-- <a class="author" href=""><img class="author-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYLrDQ9eHVQH28Tn5cY_grVhGZ_9CP7tJdnqtAcgorxmz97gUK" alt="user">
                             Mike Wazowski</a>                    -->
