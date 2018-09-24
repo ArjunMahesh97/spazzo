@@ -34,8 +34,9 @@ body{
 }
 
 .navbar-right>li>a{
-    font-family: Noe;
+    font-family: Rubik;
     text-align: center;
+    font-weight: bold;
 }
 
 .login-btn{
