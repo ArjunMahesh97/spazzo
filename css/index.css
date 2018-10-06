@@ -49,6 +49,7 @@ body{
     padding:10px 15px 7px 15px !important;
     border-radius:4px;
     color:#fff !important;
+    box-shadow: 5px 5px 25px 0 rgba(0,0,0,0.2);
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -81,12 +82,12 @@ body{
     margin-bottom: 20px !important;
 }
 
-.start-btn,.start-btn:hover,.start-btn:focus
-{
+.start-btn,.start-btn:hover,.start-btn:focus {
     text-decoration: none;
-    padding:5px 30px 3px 30px;
+    padding:10px 25px 8px 25px;
     color:#fff;
     font-weight: bold;
+    box-shadow: 5px 5px 25px 0 rgba(0,0,0,0.2);
     font-size: 21px;
     font-family: Noe;
     background : -moz-linear-gradient(0% 50% 0deg,rgba(79, 34, 128, 1) 0%,rgba(212, 20, 90, 1) 100%);
@@ -96,9 +97,9 @@ body{
     background : -ms-linear-gradient(0deg, rgba(79, 34, 128, 1) 0%, rgba(212, 20, 90, 1) 100%);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#4F2280', endColorstr='#D4145A' ,GradientType=0)";
     background : linear-gradient(90deg, rgba(79, 34, 128, 1) 0%, rgba(212, 20, 90, 1) 100%);
-    border-radius : 26px;
-    -moz-border-radius : 26px;
-    -webkit-border-radius : 26px;
+    border-radius : 35px;
+    -moz-border-radius : 35px;
+    -webkit-border-radius : 35px;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4F2280',endColorstr='#D4145A' , GradientType=1);
 }
 
