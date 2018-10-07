@@ -57,3 +57,67 @@ html,body{
     font-weight: bold;
     text-align: center;
 }
+
+.thumbnail{
+    margin: 15px auto;
+    box-shadow: 5px 5px 25px 0 rgba(0,0,0,0.2);
+    background : -moz-linear-gradient(0% 50% 0deg,rgba(79, 34, 128, 1) 0%,rgba(212, 20, 90, 1) 100%);
+    background : -webkit-linear-gradient(0deg, rgba(79, 34, 128, 1) 0%, rgba(212, 20, 90, 1) 100%);
+    background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(79, 34, 128, 1) ),color-stop(1,rgba(212, 20, 90, 1) ));
+    background : -o-linear-gradient(0deg, rgba(79, 34, 128, 1) 0%, rgba(212, 20, 90, 1) 100%);
+    background : -ms-linear-gradient(0deg, rgba(79, 34, 128, 1) 0%, rgba(212, 20, 90, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#4F2280', endColorstr='#D4145A' ,GradientType=0)";
+    background : linear-gradient(90deg, rgba(79, 34, 128, 1) 0%, rgba(212, 20, 90, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4F2280',endColorstr='#D4145A' , GradientType=1); 
+    padding: 25px 15px !important ;
+    color:#fff;
+    width: 80%;
+    border-radius: 10px !important;
+}
+
+.about-img{
+    width: 150px;
+    border-radius: 50%;
+    border:3px solid #fff;
+    box-shadow: 5px 5px 25px 0 rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align: center;
+    font-weight: bold !important;
+    font-family: Noe !important;
+    color: #333;
+    margin-bottom: 55px !important;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none !important;
+    color:#fff !important;
+    font-size: 1.2em;
+}
+
+h5{
+    font-weight: bold !important;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 1.2em !important;
+}
+
+h6{
+    text-align: center;
+    font-size: 1em !important;
+    font-family: Rubik !important
+}
+
+@media screen and (max-width:768px){
+    h1{
+        margin-bottom:15px !important;
+    }
+    .thumbnail{
+        padding: 25px 10px 15px !important
+    }
+}
