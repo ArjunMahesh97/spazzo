@@ -26,15 +26,16 @@ $username = "root";
 $password = "";
 // Create connection
 $conn = new mysqli($servername, $username, $password);
+var_dump($conn);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-/*echo "Connected successfully to mysql";*/
-$sql = "SELECT * FROM mobiledb.processor";
+//echo "Connected successfully to mysql";
+$sql = "SELECT * FROM spazzo";
 $result = $conn->query($sql);
+var_dump($result);
 if($result == false) {
-   /* echo "Query fiailed";*/
     die("Query failed");
 }
 
@@ -57,6 +58,7 @@ function test_input($data) {
     return $data;
 } */
 //var_dump($_REQUEST);
+var_dump($_REQUEST['uname']);
 if(!isset($_REQUEST['uname'])) {
 ?>
 
